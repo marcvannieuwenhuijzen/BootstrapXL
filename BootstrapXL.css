@@ -7,6 +7,12 @@
 *
 */
 
+.visible-xl-block,
+.visible-xl-inline,
+.visible-xl-inline-block,
+.visible-xl{
+    display: none !important;
+}
 
 @media (min-width: 1600px) {
     .container {
