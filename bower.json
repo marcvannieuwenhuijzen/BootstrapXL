@@ -1,0 +1,26 @@
+{
+  "name": "BootstrapXL",
+  "version": "1.0.0",
+  "homepage": "https://github.com/lu4/BootstrapXL",
+  "authors": [
+    "Denis Yaremov <denis.yaremov@gmail.com>"
+  ],
+  "description": "CSS file with Bootstrap grid classes for screens bigger than 1600px",
+  "main": "BootstrapXL.css",
+  "keywords": [
+    "Bootstrap",
+    "XL",
+    "extra",
+    "large",
+    "grid",
+    "system"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
