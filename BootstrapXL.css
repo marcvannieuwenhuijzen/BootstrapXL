@@ -135,7 +135,11 @@
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1599px){
+@media (min-width: 1200px) {
+    .col-lg-3 {
+        width: 25%;
+    }
+
     .visible-lg {
         display: block !important;
     }
@@ -169,11 +173,13 @@
     }
 }
 
-@media (min-width: 1600px) and (max-width: 2047px) {
+@media (min-width: 1600px) {
     .visible-lg {
         display: none !important;
     }
+}
 
+@media (min-width: 1600px) {
     .container {
         width: 1570px;
     }
@@ -420,12 +426,14 @@
 }
 
 @media (min-width: 2048px) {
-    .visible-lg {
+    .visible-xl {
         display: none !important;
     }
+}
 
+@media (min-width: 2048px) {
     .container {
-        width: 1970px;
+        width: 1570px;
     }
 
     .col-xx-1, .col-xx-2, .col-xx-3, .col-xx-4, .col-xx-5, .col-xx-6, .col-xx-7, .col-xx-8, .col-xx-9, .col-xx-10, .col-xx-11, .col-xx-12 {
