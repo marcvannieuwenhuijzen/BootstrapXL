@@ -1,17 +1,182 @@
 /*
-*   CSS file with Bootstrap grid classes for screens bigger than 1600px. Just add this file after the Bootstrap CSS file and you will be able to juse col-xl, col-xl-push, hidden-xl, etc.
+*   CSS file with Bootstrap grid classes for screens bigger than 1600px. Just add this file after the Bootstrap CSS file and you will be able to use col-xl, col-xl-push, hidden-xl, etc.
 *
 *   Author: Marc van Nieuwenhuijzen
 *   Company: WebVakman
 *   Site: WebVakman.nl
 *
 */
-
+.visible-xs,
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block,
+.visible-xl,
 .visible-xl-block,
 .visible-xl-inline,
 .visible-xl-inline-block,
-.visible-xl{
+.visible-xx,
+.visible-xx-block,
+.visible-xx-inline,
+.visible-xx-inline-block {
     display: none !important;
+}
+
+@media (max-width: 768px) {
+    .visible-xs {
+        display: block !important;
+    }
+
+    table.visible-xs {
+        display: table;
+    }
+
+    tr.visible-xs {
+        display: table-row !important;
+    }
+
+    th.visible-xs, td.visible-xs {
+        display: table-cell !important;
+    }
+
+    .visible-xs-block {
+        display: block !important;
+    }
+
+    .visible-xs-inline {
+        display: inline !important;
+    }
+
+    .visible-xs-inline-block {
+        display: inline-block !important;
+    }
+
+    .hidden-xs {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .visible-sm {
+        display: block !important;
+    }
+
+    table.visible-sm {
+        display: table;
+    }
+
+    tr.visible-sm {
+        display: table-row !important;
+    }
+
+    th.visible-sm, td.visible-sm {
+        display: table-cell !important;
+    }
+
+    .visible-sm-block {
+        display: block !important;
+    }
+
+    .visible-sm-inline {
+        display: inline !important;
+    }
+
+    .visible-sm-inline-block {
+        display: inline-block !important;
+    }
+
+    .hidden-sm {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .visible-md {
+        display: block !important;
+    }
+
+    table.visible-md {
+        display: table;
+    }
+
+    tr.visible-md {
+        display: table-row !important;
+    }
+
+    th.visible-md, td.visible-md {
+        display: table-cell !important;
+    }
+
+    .visible-md-block {
+        display: block !important;
+    }
+
+    .visible-md-inline {
+        display: inline !important;
+    }
+
+    .visible-md-inline-block {
+        display: inline-block !important;
+    }
+
+    .hidden-md {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .visible-lg {
+        display: block !important;
+    }
+
+    table.visible-lg {
+        display: table;
+    }
+
+    tr.visible-lg {
+        display: table-row !important;
+    }
+
+    th.visible-lg, td.visible-lg {
+        display: table-cell !important;
+    }
+
+    .visible-lg-block {
+        display: block !important;
+    }
+
+    .visible-lg-inline {
+        display: inline !important;
+    }
+
+    .visible-lg-inline-block {
+        display: inline-block !important;
+    }
+
+    .hidden-lg {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1600px) {
+    .visible-lg {
+        display: none !important;
+    }
 }
 
 @media (min-width: 1600px) {
@@ -256,6 +421,258 @@
     }
 
     .hidden-xl {
+        display: none !important;
+    }
+}
+
+@media (min-width: 2048px) {
+    .visible-xl {
+        display: none !important;
+    }
+}
+
+@media (min-width: 2048px) {
+    .container {
+        width: 1570px;
+    }
+
+    .col-xx-1, .col-xx-2, .col-xx-3, .col-xx-4, .col-xx-5, .col-xx-6, .col-xx-7, .col-xx-8, .col-xx-9, .col-xx-10, .col-xx-11, .col-xx-12 {
+        float: left;
+    }
+
+    .col-xx-12 {
+        width: 100%;
+    }
+
+    .col-xx-11 {
+        width: 91.66666667%;
+    }
+
+    .col-xx-10 {
+        width: 83.33333333%;
+    }
+
+    .col-xx-9 {
+        width: 75%;
+    }
+
+    .col-xx-8 {
+        width: 66.66666667%;
+    }
+
+    .col-xx-7 {
+        width: 58.33333333%;
+    }
+
+    .col-xx-6 {
+        width: 50%;
+    }
+
+    .col-xx-5 {
+        width: 41.66666667%;
+    }
+
+    .col-xx-4 {
+        width: 33.33333333%;
+    }
+
+    .col-xx-3 {
+        width: 25%;
+    }
+
+    .col-xx-2 {
+        width: 16.66666667%;
+    }
+
+    .col-xx-1 {
+        width: 8.33333333%;
+    }
+
+    .col-xx-pull-12 {
+        right: 100%;
+    }
+
+    .col-xx-pull-11 {
+        right: 91.66666667%;
+    }
+
+    .col-xx-pull-10 {
+        right: 83.33333333%;
+    }
+
+    .col-xx-pull-9 {
+        right: 75%;
+    }
+
+    .col-xx-pull-8 {
+        right: 66.66666667%;
+    }
+
+    .col-xx-pull-7 {
+        right: 58.33333333%;
+    }
+
+    .col-xx-pull-6 {
+        right: 50%;
+    }
+
+    .col-xx-pull-5 {
+        right: 41.66666667%;
+    }
+
+    .col-xx-pull-4 {
+        right: 33.33333333%;
+    }
+
+    .col-xx-pull-3 {
+        right: 25%;
+    }
+
+    .col-xx-pull-2 {
+        right: 16.66666667%;
+    }
+
+    .col-xx-pull-1 {
+        right: 8.33333333%;
+    }
+
+    .col-xx-pull-0 {
+        right: auto;
+    }
+
+    .col-xx-push-12 {
+        left: 100%;
+    }
+
+    .col-xx-push-11 {
+        left: 91.66666667%;
+    }
+
+    .col-xx-push-10 {
+        left: 83.33333333%;
+    }
+
+    .col-xx-push-9 {
+        left: 75%;
+    }
+
+    .col-xx-push-8 {
+        left: 66.66666667%;
+    }
+
+    .col-xx-push-7 {
+        left: 58.33333333%;
+    }
+
+    .col-xx-push-6 {
+        left: 50%;
+    }
+
+    .col-xx-push-5 {
+        left: 41.66666667%;
+    }
+
+    .col-xx-push-4 {
+        left: 33.33333333%;
+    }
+
+    .col-xx-push-3 {
+        left: 25%;
+    }
+
+    .col-xx-push-2 {
+        left: 16.66666667%;
+    }
+
+    .col-xx-push-1 {
+        left: 8.33333333%;
+    }
+
+    .col-xx-push-0 {
+        left: auto;
+    }
+
+    .col-xx-offset-12 {
+        margin-left: 100%;
+    }
+
+    .col-xx-offset-11 {
+        margin-left: 91.66666667%;
+    }
+
+    .col-xx-offset-10 {
+        margin-left: 83.33333333%;
+    }
+
+    .col-xx-offset-9 {
+        margin-left: 75%;
+    }
+
+    .col-xx-offset-8 {
+        margin-left: 66.66666667%;
+    }
+
+    .col-xx-offset-7 {
+        margin-left: 58.33333333%;
+    }
+
+    .col-xx-offset-6 {
+        margin-left: 50%;
+    }
+
+    .col-xx-offset-5 {
+        margin-left: 41.66666667%;
+    }
+
+    .col-xx-offset-4 {
+        margin-left: 33.33333333%;
+    }
+
+    .col-xx-offset-3 {
+        margin-left: 25%;
+    }
+
+    .col-xx-offset-2 {
+        margin-left: 16.66666667%;
+    }
+
+    .col-xx-offset-1 {
+        margin-left: 8.33333333%;
+    }
+
+    .col-xx-offset-0 {
+        margin-left: 0;
+    }
+
+    .visible-xx {
+        display: block !important;
+    }
+
+    table.visible-xx {
+        display: table;
+    }
+
+    tr.visible-xx {
+        display: table-row !important;
+    }
+
+    th.visible-xx, td.visible-xx {
+        display: table-cell !important;
+    }
+
+    .visible-xx-block {
+        display: block !important;
+    }
+
+    .visible-xx-inline {
+        display: inline !important;
+    }
+
+    .visible-xx-inline-block {
+        display: inline-block !important;
+    }
+
+    .hidden-xx {
         display: none !important;
     }
 }
