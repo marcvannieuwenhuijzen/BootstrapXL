@@ -7,12 +7,21 @@
 *
 */
 
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .hidden-lg {
+        display: none !important;
+    }
+}
+
+
 .visible-xl-block,
 .visible-xl-inline,
 .visible-xl-inline-block,
 .visible-xl{
     display: none !important;
 }
+
+
 
 @media (min-width: 1600px) {
     .container {
