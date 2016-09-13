@@ -267,4 +267,14 @@
     .hidden-xl {
         display: none !important;
     }
+    
+
+    .visible-lg-block,
+    .visible-lg-inline,
+    .visible-lg-inline-block,
+    .visible-lg{
+        display: none !important;
+    }
+
+    
 }
